@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotating navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="circle-container"> 
+            <!-- buttons -->
+            <div class="circle">
+
+                <button id="close">
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <button id="open">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+        <!-- content -->
+        <div class="content">
+            <div class="skin">
+                <div class="left">
+                  <h1 >Hello, friend!</h1>
+                  <p>Enter your personal details <Br>and start journey with us<p>
+                  <button class="button" onclick="window.location.href='../register/register.html'" class="btn" > SIGN UP</button>
+                </div>
+                <div class="right">
+                  <h2 >Sign In To Website</h2>
+                  <p>enter your information</p>
+                  <form onmouseover="console.log(base)" class="form" action="" method="post">
+                    <input id="username"type="text" placeholder=" Email">
+                    <input id="password"type="text" placeholder=" Password">
+                    <a href="#">Forgot your password?</a>
+                    <br><button class="button" type="button" id="sign_in">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- bottom nav -->
+    <nav>
+        <ul>
+            <li><i class="fa fa-home"> home</i></li>
+            <li><i class="fa fa-user "> about us</i></li>
+            <li><i class="fa fa-envelope"> contact</i></li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

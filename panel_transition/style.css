@@ -1,3 +1,4 @@
+/* font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
@@ -14,39 +15,51 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+/* flex container */
 .container {
   display: flex;
   width: 90vw;
 }
 .panel {
+  /* background image */
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
+
   height: 80vh;
   border-radius: 50px;
-  color: white;
   cursor: pointer;
+  /* flex items minimaze */
   flex: 0.5;
   margin: 10px;
   position: relative;
   transition: flex 0.5s ease-in;
 }
+
+
+/* item become maximized */
+.panel.active {
+  flex: 1;
+}
+
+/* all h3 */
 .panel h3 {
+  color: white;
   font-size: 24px;
+  width: 13.5vw;
   position: absolute;
   margin: 0;
   opacity: 0;
 }
-.panel.active {
-  flex: 1;
-}
+
+
+/* active h3 and hovers */
 .panel.active h3 {
   margin-left: 25%;
   top:50%;
-  width: auto;
   padding: 10px;
-  background-color: limegreen;
-  box-shadow:lime 0px 0px 70px 10px;
+  box-shadow:white 0px 0px 70px 10px;
   border-radius: 20px;
   opacity: 1;
   transition: opacity 0.3s ease-in 0.3s;
@@ -60,15 +73,10 @@ body {
     box-shadow:white  0px 0px 70px 10px;
 
 }
+/* responsivness */
 @media (max-width: 480px) {
   .container {
     width: 100vw;
   }
-  .panel:nth-of-type(4), 
-  .panel:nth-of-type(5) {
-    display: none;
-  }
-  .container h3{
-      display: none;
-  }
+  
 }
