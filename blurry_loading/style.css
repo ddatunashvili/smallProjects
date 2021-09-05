@@ -1,0 +1,39 @@
+
+
+
+/* general style */
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------- */
+.bg{
+  background: url('https://wallpapersflix.com/cool/wp-content/uploads/2020/09/Cool-Desktop-Background-4k-1024x576.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: -30;
+  left: -30;
+  width:100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(60px);
+  /* center text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text{
+  position: absolute;
+  font-size: 50px;
+  color:white;
+  display: flex;
+  z-index: 1;
+}

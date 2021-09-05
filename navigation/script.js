@@ -5,9 +5,11 @@ const container = document.querySelector(".container");
 // open nav
 open_nav.addEventListener('click', ()=>{
     container.classList.add('show-nav')
+    document.documentElement.scrollTop = 0;
 })
 // close nav
 close_nav.addEventListener('click', ()=>{
     container.classList.remove('show-nav')
+    
 })
 
