@@ -4,7 +4,7 @@
 
 ### table of projects
 
-| number | name|link|
+| number | code link |webpage link|
 | ------ | ------------------------------------------------------------------------------------------------------------------ |---------|
 | **1**  | [panel_transition](https://github.com/ddatunashvili/smallProjects/tree/master/panel_transition "panel_transition") |[link](https://ddatunashvili.github.io/smallProjects/panel_transition/index.html)|
 | **2**  | [progress_steps](https://github.com/ddatunashvili/smallProjects/tree/master/progress_steps "progress_steps")       |[link](https://ddatunashvili.github.io/smallProjects/progress_steps/index.html)|
