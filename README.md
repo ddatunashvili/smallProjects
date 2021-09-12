@@ -12,3 +12,4 @@
 | **4**  | [hidden_search](https://github.com/ddatunashvili/smallProjects/tree/master/hidden_search)                             |[link](https://ddatunashvili.github.io/smallProjects/hidden_search/index.html)|
 | **5**  | [blurry_loading](https://github.com/ddatunashvili/smallProjects/tree/master/blurry_loading)                        |[link](https://ddatunashvili.github.io/smallProjects/blurry_loading/index.html)|
 | **6**  | [scroll](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/scroll/index.html)|
+| **7**  | [split_page](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/split_page/index.html)|

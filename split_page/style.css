@@ -1,0 +1,159 @@
+/* var */
+
+:root {
+  /* ბექი */
+  --left-bg-color: rgba(10, 26, 250, 0.438);
+  --right-bg-color: rgba(250, 13, 10, 0.438);
+  /* ჰავერი */
+  --left-btn-hover-color: black;
+  --right-btn-hover-color: red;
+  /*  სიგანე*/
+  --hover-width: 70%;
+  --other-width: 30%;
+  /* გადასვლის სისწრაფე */
+  --speed: 1000ms;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f6f7fb;
+  /* additionals */
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+/* მარცხენა მხარე */
+.split.left {
+  /* ეს იყოს მარცხნივ */
+  left: 0;
+
+  background: url("justice-league.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*move with div*/
+  background-position: center;
+}
+/* მარცხენა მხარეს დამალული ელემენტი */
+.split.left::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-bg-color);
+}
+
+/* მარჯვენა მხარე */
+.split.right {
+  /* ეს იყოს მარჯვნივ */
+  right: 0;
+  background: url("avengers.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*move with div*/
+  background-position: center;
+}
+/* მარჯვენა მხარეს დამალული ელემენტი */
+.split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
+}
+
+/* content */
+h1 {
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn {
+  position: absolute;
+
+  /* text center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* middle button */
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+
+  color: white;
+  border: white solid 0.2rem;
+  font-size: 1rem;
+  width: 15rem;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+/* ღილაკების ჰოვერები */
+.split.left .btn:hover {
+  background-color: var(--left-bg-color);
+  border-color: var(--left-btn-hover-color);
+}
+.split.right .btn:hover {
+  background:url('https://64.media.tumblr.com/f1848b5f66d35e4624df57a69e493870/tumblr_pi3lpexKqL1rdqbfro1_500.gifv');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(2.5);
+}
+
+/* მარცხენა ელემენტის ჰოვერისას */
+.hover-left .left {
+  width: var(--hover-width);
+}
+.hover-left .right {
+  width: var(--other-width);
+}
+
+/* მარჯვენა ელემენტის ჰოვერისას */
+.hover-right .right {
+  width: var(--hover-width);
+}
+.hover-right .left {
+  width: var(--other-width);
+}
+/* გადასვლა */
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+  transition: all var(--speed) ease-in-out;
+}
+
+/* რესპონსივი */
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    top: 30%;
+  }
+  .btn {
+    width: 12rem;
+    padding: 1.2rem;
+  }
+}
