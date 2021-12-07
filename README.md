@@ -13,4 +13,4 @@
 | **5**  | [blurry_loading](https://github.com/ddatunashvili/smallProjects/tree/master/blurry_loading)                        |[link](https://ddatunashvili.github.io/smallProjects/blurry_loading/index.html)|
 | **6**  | [scroll](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/scroll/index.html)|
 | **7**  | [split_page](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/split_page/index.html)|
-| **8**  | [form_waving](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/form _waving/index.html)|
+| **8**  | [form_waving](https://github.com/ddatunashvili/smallProjects/tree/master/scroll)                                        |[link](https://ddatunashvili.github.io/smallProjects/form%20_waving/index.html)|
