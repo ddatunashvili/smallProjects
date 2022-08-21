@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* პოსტი */
+.post{
+    display: block;
+    width: 100%;
+
+    position: relative;
+    z-index: 2;
+    height:90vh; 
+    background:url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+  
+}
+.post img{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    margin:auto ;
+    height:90%;
+    border-radius: 50px; 
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(252, 252, 252, 0.476);
+    opacity: 0.4;
+
+
+}
+.up{
+    display: block;
+    position: absolute;
+    z-index: 4;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(252, 252, 252, 0.476);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.up p {
+    margin: auto;
+    font-weight:lighter;
+    text-align: center;   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
