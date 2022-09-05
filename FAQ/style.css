@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Muli",sans-serif;
+    background-color: white;
+}
+
+h1{
+    /* ზედა და ქვედა მარჯინები */
+    margin:50px 0 30px;
+    text-align: center;
+}
+.faq-container{
+    max-width: 600px;
+    /* მარჯინი მარცხნივ და მარჯვნივ ავტო */
+    margin: 0 auto;
+}
+.faq{
+    background-color: transparent;
+    border: 1px solid rgba(109, 109, 109, 0.347);
+    border-radius: 10px;
+     /* მარჯინი მარცხნივ და მარჯვნივ 0 და ზევით ქვევით 20px */
+
+    margin:20px 0 ;
+    padding:30px;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+
+.faq.active{
+    background-color: white;
+    box-shadow:0  3px 6px rgba(147, 143, 143, 0.448), 0  3px 6px rgba(147, 143, 143, 0.448); 
+    transition: 0.5s ease;
+       
+}
+
+.faq.active::before,.faq.active::after{
+    /* /კოდი */
+    content: '\f075';
+    /* ფემილის გარეშე კუბიკია */
+    font-family: "Font Awesome 5 Free";
+    color: rgb(0, 225, 255);
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    /* ორივე ერთ ადგილასაა */
+    top:-30px;
+    right: 70px;
+
+
+}
+.faq.active::before{
+    color:rgb(0, 64, 255) ;
+    top:5px;
+    right: 10px;
+
+    transform: rotateY(180deg);
+}
+.faq-title{
+    margin:0 35px 0 0;
+    
+}
+.faq-text{
+    display: none;
+    margin:35px 0 0;
+    padding: 10px 10px;
+    
+
+   
+}
+.faq.active .faq-text{
+    display: block;
+    animation:zoom 0.7s;
+}
+/* ღილაკები */
+.faq-toggle{
+    background-color: transparent;
+    border: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: absolute;
+
+    top:30px;
+    right: 30px;
+    height: 30px;
+    width: 30px ;
+    cursor: pointer;
+}
+.faq-toggle:focus{
+    outline: none;
+}
+
+.faq-toggle .fa-times{
+    display: none;
+}
+
+
+
+.faq.active .faq-toggle .fa-times{
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none ;
+}
+
+.faq.active .faq-toggle{
+    background-color: rgb(255, 248, 240);
+    backdrop-filter: blur(6px);
+    border-radius: 50%;
+    padding: 20px  !important;
+}
+
+
+
+@keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+
+   to {
+      transform: scale(1);
+    }
+  }
