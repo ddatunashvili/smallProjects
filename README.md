@@ -19,4 +19,5 @@
 | **11**  | [Keyboard_detector](https://github.com/ddatunashvili/smallProjects/tree/master/Keyboard_detector)                                        |[link](https://ddatunashvili.github.io/smallProjects/Keyboard_detector/index.html)|
 | **12**  | [blurring_background](https://github.com/ddatunashvili/smallProjects/tree/master/blurring_background)                                        |[link](https://ddatunashvili.github.io/smallProjects/blurring_background/index.html)|
 | **13**  | [Frequently asked questions](https://github.com/ddatunashvili/smallProjects/tree/master/FAQ)                                        |[link](https://ddatunashvili.github.io/smallProjects/FAQ/index.html)|
+| **14**  | [Simple Resume](https://github.com/ddatunashvili/smallProjects/tree/master/Simple_resume)                                        |[link](https://ddatunashvili.github.io/smallProjects/Simple_resume/index.html)|
 
