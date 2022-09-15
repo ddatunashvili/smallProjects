@@ -10,7 +10,8 @@ body{
     font-weight: 300;
 }
 .skin{
-    scale: 1.5;
+    zoom: 1.6;
+    -moz-transform: scale(1.6);
     position: relative;
     padding: 50px 100px;
     border-radius: 5px;
