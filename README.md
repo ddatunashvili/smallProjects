@@ -20,5 +20,4 @@
 | **12**  | [blurring_background](https://github.com/ddatunashvili/smallProjects/tree/master/blurring_background)                                        |[link](https://ddatunashvili.github.io/smallProjects/blurring_background/index.html)|
 | **13**  | [Frequently asked questions](https://github.com/ddatunashvili/smallProjects/tree/master/FAQ)                                        |[link](https://ddatunashvili.github.io/smallProjects/FAQ/index.html)|
 | **14**  | [Simple Resume](https://github.com/ddatunashvili/smallProjects/tree/master/Simple_resume)                                        |[link](https://ddatunashvili.github.io/smallProjects/Simple_resume/index.html)|
-
 | **15**  | [I love you](https://github.com/ddatunashvili/smallProjects/tree/master/I_love_u)                                        |[link](https://ddatunashvili.github.io/smallProjects/I_love_u/index.html)|
