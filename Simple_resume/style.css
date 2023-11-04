@@ -159,3 +159,31 @@ body{
     border-bottom:2px #b83be6 solid;
     
 }
+
+@media screen and (max-width:600px){
+    .skin {
+        zoom: 1.6;
+        -moz-transform: scale(1.6);
+        position: relative;
+        padding: 50px 100px;
+        border-radius: 5px;
+        background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/videoblocks-abstract-polygon-blue-pink-background_b78neb3og_thumbnail-1080_01.png) no-repeat;
+        background-size: cover;
+        width: 600px;
+        height: 250px;
+        overflow: hidden !important;
+        margin: auto;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        width: 200px;
+        height: fit-content;
+        justify-content: center;
+    }
+
+    .projects {
+        display: none;
+    }
+
+
+}
